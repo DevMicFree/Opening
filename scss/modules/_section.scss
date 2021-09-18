@@ -1,0 +1,41 @@
+.section__header {
+  margin-bottom: 71px;
+  padding: 0 20px;
+}
+
+.section--gray {
+  background-color: #F4F2F5;
+}
+
+.section__title {
+  text-align: center;
+  font-size: 50px;
+  line-height: 71px;
+}
+
+@media screen and (max-width: 1024px) {
+  .section__header {
+    margin-bottom: 40px;
+  }
+  .section__title {
+    font-size: 46px;
+    line-height: 52px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section__header {
+    margin-bottom: 40px;
+  }
+  .section__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section__title {
+    font-size: 33px;
+    line-height: 39px;
+  }
+}
